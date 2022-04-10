@@ -1,0 +1,68 @@
+.lien_principal {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .lien {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+  .img_publicite {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    image-resolution: 50%;
+  }
+
+
+  .lien_produit:before {
+    content: attr(title);
+    display: block;
+  }
+  
+  ul {
+    text-align: center;
+    padding: 0;
+  }
+  
+  li {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  li img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .video_youtub_produits {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 5%;
+  }
+
+  .formulaire_de_contact {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  .contact_me {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+  }
